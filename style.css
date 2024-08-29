@@ -104,6 +104,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+*/
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -254,4 +255,81 @@ a {
   letter-spacing: 1.5rem;
 }
 
+/* Sponsorsip */
+.base-sponsor {
+  max-width: var(--base-width-container);
+  margin: auto;
+}
+.btn-sponsor {
+  border-radius: 0 2rem 0 0;
+  padding: 1.5rem 13rem;
+  font-size: 1.5rem;
+  background: #01012d;
+  color: var(--base-bg-button);
+  /* width: 50rem; */
+}
+.item-sponsor {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+/*baju*/
+.lower-container {
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.item-baju {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 9rem;
+  background: #2a3b5b;
+}
+.btn-item-baju {
+  margin-top: 12rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: white;
+  background: #000;
+  border: black;
+}
+.col-1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: right;
+  color: white;
+  padding-right: 6rem;
+}
+.item-baju-2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5rem;
+  background: #d27161;
+  padding-right: 1rem;
+}
+.col-2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-right: 10rem;
+  text-align: left;
+  color: white;
+}
+.btn-item-baju-2 {
+  margin-top: 12rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border: rgb(230, 228, 228);
+}
 /* MEDIA */
